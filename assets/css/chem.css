@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}header{
+    width: 100%;
+    height: 120px;
+    background-color: bisque;
+    border: none;
+}
+nav{
+
+    background-color: brown;
+    padding: 20px;
+    
+    width: 100%;
+    height: 100px
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline;
+    color: white;
+    
+    padding: 10px;
+    
+}
+nav li a {
+    color: white;
+   
+}
+footer{
+    height: 70px;
+}
+div.second-nav{
+
+    float: right;
+    background-color: brown;
+    width: 100%;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+section{
+    border:1px solid black;
+    width:100%;
+}
+article{
+    border: 1px solid blue;
+    width: 30%;
+    
+}
+section article{
+    display: inline-block;
+}
